@@ -1,0 +1,3 @@
+SELECT idCliente,NomeCliente,dataNascimento,sexoCliente,enderecoCliente,Professores.nomeProfessor FROM clientes
+INNER JOIN professores
+WHERE professores.idProfessor = clientes.Professor
